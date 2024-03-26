@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Se crea un archivo de tipo dibujable para definir dos items: 1 item para el estado presionado true y el otro para el estado presionado false-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="5dp"/>
+            <solid android:color="@color/greenLight"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="5dp"/>
+            <solid android:color="@color/green"/>
+        </shape>
+    </item>
+</selector>

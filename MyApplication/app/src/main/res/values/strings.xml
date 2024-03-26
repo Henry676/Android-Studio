@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hola ceti IDS</string>
+    <string name="txtNombre">Nombre:</string>
+    <string name="editNombre">Escribe tu nombre:</string>
+    <string name="txtTelefono">Telefono</string>
+    <string name="editTelefono">Escribe tu numero de telefono:</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="activity_main_error">Campo requerido</string>
+</resources>

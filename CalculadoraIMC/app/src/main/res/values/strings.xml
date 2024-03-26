@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+    <string name="txt1">Calculadora de Indice de Masa Corporal</string>
+    <string name="campo1">Ingrese su estatura en metros</string>
+    <string name="campo2">Ingrese su peso en kilogramos</string>
+    <string name="boton">CALCULAR IMC</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculadora Básica</string>
+    <string name="insertNumber">Ingrese un numero</string>
+    <string name="txtn1">Valor 1</string>
+    <string name="insertNumber2">Ingrese otro numero</string>
+    <string name="txtn2">Valor 1</string>
+    <string name="btnsuma">+</string>
+    <string name="btnresta">-</string>
+    <string name="btnmulti">*</string>
+    <string name="btndiv">/</string>
+    <string name="showresult">Total</string>
+    <string name="activity_main_error">Campo requerido</string>
+</resources>

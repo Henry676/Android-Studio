@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/campoN1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/insertNumber"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Numero 1" />
+
+    <EditText
+        android:id="@+id/campoN2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/insertNumber2"
+        android:inputType="numberDecimal"/>/>
+
+    <TextView
+        android:id="@+id/number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Numero 2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/suma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0DD524"
+            android:layout_weight="1"
+            android:onClick="sumarNumeros"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/resta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF5722"
+            android:layout_weight="1"
+            android:onClick="restarNumeros"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:layout_weight="1"
+            android:onClick="multiplicarNumeros"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#A31F1F"
+            android:layout_weight="1"
+
+            android:onClick="dividirNumeros"
+            android:text="/" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/showresult"
+        android:inputType="numberDecimal"/>/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Resultado" />
+</LinearLayout>
